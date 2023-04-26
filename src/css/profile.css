@@ -1,0 +1,95 @@
+.nav-item{
+    font-size: small;
+    color: #ababab;
+}
+
+.profile-container{
+    position: relative;
+    top: 50px;
+    margin-top: 20px;
+}
+
+.profile-tab{
+    padding: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.profile-tab a{
+    width: 100%;
+    padding: 20px;
+    text-decoration: none;
+    border: 1px solid #eee;
+    color: #eee; 
+    cursor: pointer;
+}
+
+.tab-active{
+    border: 1px solid #ff4500 !important;
+    color: #ff4500 !important;
+}
+
+
+.profile-image-container{
+    padding: 20px;
+}
+
+.profile-content{
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+.profile-vector{
+    width: 200px;
+}
+
+.input-container{
+    padding: 10px;
+}
+
+.input-container label{
+    padding: 0px 15px;
+    display: block;
+    font-size: 14px;
+}
+
+.custom-input input{
+    padding: 5px 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    outline: none !important;
+}
+
+.custom-input button{
+    border: none;
+    outline: none !important;
+    background-color: transparent;
+    color: #212121;
+}
+
+.profile-input-group{
+    width: auto;
+    height: fit-content;
+}
+
+.profile-input-group-two{
+    flex-direction: column;
+}
+.profile-input-group-two input{
+    width: 100%;
+}
+.sign-out-btn-container{
+    padding: 50px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.sign-out-btn-container button{
+    padding: 15px;
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    width: 150px;
+}

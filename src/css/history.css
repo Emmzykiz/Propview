@@ -1,0 +1,35 @@
+.history-container{
+    margin: 0 auto;
+    padding: 20px 50px;
+}
+.history-heading{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.purchased-properties{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.property-container{
+    border: 1px solid #eee;
+    border-radius: 20px;
+    width: 1000px;
+}
+
+.property-container img{
+    border-radius: 20px 0px 0px 20px;
+}
+
+.property-name{
+    display: block;
+    padding: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.property-price{
+    padding: 10px;
+    font-size: x-large;
+}

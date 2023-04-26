@@ -1,0 +1,875 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,700&display=swap');
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: 0.5s ease-in;
+}
+
+
+h1, h2, h3,h4, h5, h6 {
+  font-family: 'Ubuntu', sans-serif !important;
+
+}
+
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color:#ffffff !important;
+}
+
+
+nav {
+  background-color: #fdfeff;
+  color: #000;
+  height: 12vh !important;
+  
+}
+
+
+.navbar-brand img{
+  width: 10rem !important;
+  margin-left: 4rem !important;
+}
+
+
+.offcanvas {
+  background-color: #ffffff;
+}
+
+
+.dropdown-menu {
+  background-color: #f5f5f5 !important;
+  border: none !important;
+}
+
+
+span .navbar-toggler-icon {
+  background-color: #000000 !important;
+}
+
+
+.navbar-toggler {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  transition: 0.5s ease-in-out;
+}
+
+
+.toggler-icon {
+  width: 100%;
+  height: 2px;
+  background-color: #000000;
+  display: block;
+  position: absolute;
+  border-radius: 1px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+  border-radius: 10px;
+  margin-right: 100px !important;
+}
+
+
+/*when navigation is clicked*/
+.navbar-toggler .top-bar {
+  margin-top: 7px;
+  transform: rotate(0deg);
+}
+
+
+.navbar-toggler .middle-bar {
+  margin-top: 13.5px;
+  transform: rotate(0deg);
+}
+
+
+.navbar-toggler .bottom-bar {
+  margin-top: 0px;
+  transform: rotate(0deg);
+}
+
+
+/*state when navbar is collapsed*/
+.offcanvas-header .btn-close {
+  color: #E35F00 !important;
+}
+
+
+.nav-item {
+  margin-left: 20px !important;
+}
+
+
+.nav-link {
+  font-weight: 800;
+  font-size: 1.28rem !important;
+  color: #000000 !important;
+}
+
+
+.nav-link:hover {
+  color: #E35F00 !important ;
+}
+
+.nav-link.signup{
+  padding: 10px !important;
+  border: 2px solid #E35F00 !important;
+  color: #E35F00 !important;
+  margin-left: 30px !important;
+  width: 120px !important;
+  text-align: center;
+}
+
+
+.active {
+  opacity: 1;
+}
+
+
+.hero-section{
+  background-color:#0000;
+  background-image: url('../img/hero-bg.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  height: 100vh;
+}
+
+
+.hero-section h1 {
+
+  color: #ffffff;
+}
+#search .search-form{
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 15px;
+  padding: 80px !important;
+
+}
+#search button{
+  background-color: #000000;
+  height: 100%;
+
+}
+#search input,select.form-width{
+  width: 100%;
+  border: 2px solid #000000;
+  height: 100% !important;
+  
+}
+#search input::placeholder{
+  padding: 30px;
+
+}
+
+.courses .card {
+
+  border: none;
+}
+
+
+.card-footer {
+  
+  border: none !important;
+  background-color: transparent !important;
+}
+
+
+.card{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+
+}
+
+
+.card-img {
+
+  width: 100% !important;
+}
+
+
+.testimonials {
+  padding: 50px 0;
+}
+
+
+.testimonials h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.testimonials span{
+  color: #009F0F !important;
+}
+
+.testi span {
+
+  color: #E35F00 !important;
+}
+
+
+.testi .card {
+
+  
+  background-size: contain;
+  background-size: 50px; /* adjust size as needed */
+  background-repeat: no-repeat;
+  background-position: calc(25% - 50px) 24px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: none !important;
+}
+
+
+.testi .card img {
+
+  width: 2.5rem !important;
+  border-radius: 50% !important;
+}
+
+
+.testi .card small {
+
+  font-size: 1rem;
+}
+
+/* .started .card {
+
+  border: none !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 2rem !important;
+  background-image: url('../img/bg2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff !important;
+} */
+
+.started button {
+
+  width: 50% !important;
+}
+
+.footer {
+  background-color:#F5F5F5!important;
+  padding: 40px 0;
+  color: #000000;
+}
+
+
+.footer button.social-links{
+  border-radius: 5px !important;
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border: 0px !important;
+  font-weight: 900 !important;
+}
+
+
+.footer .footer-link{
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.1rem !important;
+}
+
+
+
+
+.footer h5 {
+  color: #000000 !important;
+}
+
+
+
+.footer form {
+  margin-bottom: 20px;
+  border: 1px solid #000  !important;
+}
+
+
+.form {
+  display: flex;
+  align-items: center;
+}
+
+
+.form input {
+  height: 48px ;
+  flex: 1;
+  width: 100%;
+  border-radius: 10px !important;
+  padding: 10px !important;
+}
+
+
+
+.form button {
+  flex-shrink: 0;
+  background-color: #009F0F !important;
+  margin-left: 10px;
+  height: 45px ;
+  border: none !important;
+}
+
+
+
+.footer img {
+  margin-top: 20px;
+}
+
+
+
+
+.footer p {
+  font-size: 13px;
+  
+}
+
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+
+
+.footer i {
+  margin-right: 10px;
+}
+
+
+
+/********** RESPONSIVENESS **********/
+
+/* For 480 Resolution - Laptop*/
+@media(min-width: 320px) and (max-width: 480px) {
+  /* STYLES GO HERE */
+
+
+}
+
+
+/* For 640 Resolution - mobile */
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
+
+  
+
+  .nav {
+    height: 9vh !important;
+    
+  }
+  .navbar-brand img{
+    width: 7rem !important;
+    margin-left: 0rem !important;
+  }
+
+
+  .fixed-top {
+
+    height: 5rem !important;
+  }
+
+  
+
+  /*  */
+  
+  
+
+  .started button {
+
+    width: 100% !important;
+  }
+
+  .testi h1{
+    font-size: calc(1.575rem + 1.0vw) !important;
+  }
+
+
+  .navbar-toggler {
+
+    margin-bottom: 1rem !important;
+  }
+
+  .offcanvas {
+
+    border-radius: 5rem 0rem 0rem 0rem;
+  }
+
+  .offcanvas-header {
+    margin: 10% !important;
+  }
+
+  .offcanvas-body {
+    padding: 2rem !important;
+  }
+}
+
+
+/* For 1024 Resolution - laptop 1 */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,700&display=swap');
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: 0.5s ease-in;
+}
+
+
+h1, h2, h3,h4, h5, h6 {
+  font-family: 'Ubuntu', sans-serif !important;
+
+}
+
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color:#ffffff !important;
+}
+
+
+nav {
+  background-color: #fdfeff;
+  color: #000;
+  height: 12vh !important;
+  
+}
+
+
+.navbar-brand img{
+  width: 10rem !important;
+  margin-left: 4rem !important;
+}
+
+
+.offcanvas {
+  background-color: #ffffff;
+}
+
+
+.dropdown-menu {
+  background-color: #f5f5f5 !important;
+  border: none !important;
+}
+
+
+span .navbar-toggler-icon {
+  background-color: #000000 !important;
+}
+
+
+.navbar-toggler {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  transition: 0.5s ease-in-out;
+}
+
+
+.toggler-icon {
+  width: 100%;
+  height: 2px;
+  background-color: #000000;
+  display: block;
+  position: absolute;
+  border-radius: 1px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+  border-radius: 10px;
+  margin-right: 100px !important;
+}
+
+
+/*when navigation is clicked*/
+.navbar-toggler .top-bar {
+  margin-top: 7px;
+  transform: rotate(0deg);
+}
+
+
+.navbar-toggler .middle-bar {
+  margin-top: 13.5px;
+  transform: rotate(0deg);
+}
+
+
+.navbar-toggler .bottom-bar {
+  margin-top: 0px;
+  transform: rotate(0deg);
+}
+
+
+/*state when navbar is collapsed*/
+.offcanvas-header .btn-close {
+  color: #E35F00 !important;
+}
+
+
+.nav-item {
+  margin-left: 20px !important;
+}
+
+
+.nav-link {
+  padding: 12px;
+  font-weight: 500;
+  /* font-size: 1.28rem; */
+  color: #ababab !important;
+}
+
+
+.nav-link:hover {
+  color: #E35F00 !important ;
+}
+
+.signup-btn{
+  padding: 10px !important;
+  border: 2px solid #E35F00 !important;
+  color: #E35F00 !important;
+  width: 120px !important;
+  text-align: center;
+  margin-left: 50px;
+  border-radius: 5px;
+}
+
+
+.active {
+  opacity: 1;
+}
+
+
+.hero-section{
+  background-color:#0000;
+  background-image: url('../img/hero-bg.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  height: 100vh;
+}
+
+
+.hero-section h1 {
+
+  color: #ffffff;
+}
+#search .search-form{
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 15px;
+  padding: 80px !important;
+
+}
+#search button{
+  background-color: #000000;
+  height: 100%;
+
+}
+#search input,select.form-width{
+  width: 100%;
+  border: 2px solid #000000;
+  height: 100% !important;
+  
+}
+#search input::placeholder{
+  padding: 30px;
+
+}
+
+.courses .card {
+
+  border: none;
+}
+
+
+.card-footer {
+  
+  border: none !important;
+  background-color: transparent !important;
+}
+
+
+.card{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+
+}
+
+
+.card-img {
+
+  width: 100% !important;
+}
+
+
+.testimonials {
+  padding: 50px 0;
+}
+
+
+.testimonials h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.testimonials span{
+  color: #009F0F !important;
+}
+
+.testi span {
+
+  color: #E35F00 !important;
+}
+
+
+.testi .card {
+
+  
+  background-size: contain;
+  background-size: 50px; /* adjust size as needed */
+  background-repeat: no-repeat;
+  background-position: calc(25% - 50px) 24px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: none !important;
+}
+
+
+.testi .card img {
+
+  width: 2.5rem !important;
+  border-radius: 50% !important;
+}
+
+
+.testi .card small {
+
+  font-size: 1rem;
+}
+
+/* .started .card {
+
+  border: none !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 2rem !important;
+  background-image: url('../img/bg2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff !important;
+} */
+
+.started button {
+
+  width: 50% !important;
+}
+
+.footer {
+  background-color:#F5F5F5!important;
+  padding: 40px 0;
+  color: #000000;
+}
+
+
+.footer button.social-links{
+  border-radius: 5px !important;
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border: 0px !important;
+  font-weight: 900 !important;
+}
+
+
+.footer .footer-link{
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.1rem !important;
+}
+
+
+
+
+.footer h5 {
+  color: #000000 !important;
+}
+
+
+
+.footer form {
+  margin-bottom: 20px;
+  border: 1px solid #000  !important;
+}
+
+
+.form {
+  display: flex;
+  align-items: center;
+}
+
+
+.form input {
+  height: 48px ;
+  flex: 1;
+  width: 100%;
+  border-radius: 10px !important;
+  padding: 10px !important;
+}
+
+
+
+.form button {
+  flex-shrink: 0;
+  background-color: #009F0F !important;
+  margin-left: 10px;
+  height: 45px ;
+  border: none !important;
+}
+
+
+
+.footer img {
+  margin-top: 20px;
+}
+
+
+
+
+.footer p {
+  font-size: 13px;
+  
+}
+
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+
+
+.footer i {
+  margin-right: 10px;
+}
+
+
+
+/********** RESPONSIVENESS **********/
+
+/* For 480 Resolution - Laptop*/
+@media(min-width: 320px) and (max-width: 480px) {
+  /* STYLES GO HERE */
+
+
+}
+
+
+/* For 640 Resolution - mobile */
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
+
+  
+
+  .nav {
+    height: 9vh !important;
+    
+  }
+  .navbar-brand img{
+    width: 7rem !important;
+    margin-left: 0rem !important;
+  }
+
+
+  .fixed-top {
+
+    height: 5rem !important;
+  }
+
+  
+
+  /*  */
+  
+  
+
+  .started button {
+
+    width: 100% !important;
+  }
+
+  .testi h1{
+    font-size: calc(1.575rem + 1.0vw) !important;
+  }
+
+
+  .navbar-toggler {
+
+    margin-bottom: 1rem !important;
+  }
+
+  .offcanvas {
+
+    border-radius: 5rem 0rem 0rem 0rem;
+  }
+
+  .offcanvas-header {
+    margin: 10% !important;
+  }
+
+  .offcanvas-body {
+    padding: 2rem !important;
+  }
+}
+
+
+/* For 1024 Resolution - laptop 1 */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  
+}
+
+/* For 1366 Resolution  -- laptop 2*/
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+  /* STYLES GO HERE */
+}
+
+/** desktop screen */
+@media only screen and (min-width: 1370px) and (max-width: 1605px) {
+  /* STYLES GO HERE */
+}
+
+/*Ipad Orientation : Landscape */
+@media only screen and (orientation: landscape) and (min-device-pixel-ratio: 1) and (min-device-width: 768px) and (max-device-width: 1007px) {
+  /* STYLES GO HERE */
+}
+
+/*ipad Orientation : Portrait */
+@media only screen and (orientation: portrait) and (min-device-pixel-ratio: 1) and (min-device-width: 768px) and (max-device-width: 1007px) {
+  /* STYLES GO HERE */
+}
+  
+
+}
+
+/* For 1366 Resolution  -- laptop 2*/
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+  /* STYLES GO HERE */
+}
+
+/** desktop screen */
+@media only screen and (min-width: 1370px) and (max-width: 1605px) {
+  /* STYLES GO HERE */
+}
+
+/*Ipad Orientation : Landscape */
+@media only screen and (orientation: landscape) and (min-device-pixel-ratio: 1) and (min-device-width: 768px) and (max-device-width: 1007px) {
+  /* STYLES GO HERE */
+}
+
+/*ipad Orientation : Portrait */
+@media only screen and (orientation: portrait) and (min-device-pixel-ratio: 1) and (min-device-width: 768px) and (max-device-width: 1007px) {
+  /* STYLES GO HERE */
+}
