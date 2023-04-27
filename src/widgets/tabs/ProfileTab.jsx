@@ -2,7 +2,7 @@ function ProfileTab(){
     return <>
     <div className="d-flex profile-content">
             <div className="profile-image-container">
-                <img src="./src/assets/profile-vector.svg" className='profile-vector' alt="" />
+                <img src="./src/assets/icons/profile-vector.svg" className='profile-vector' alt="" />
             </div>
             <div className="profile-info-container">
                 <div className="d-flex profile-input-group">

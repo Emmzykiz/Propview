@@ -10,27 +10,27 @@ const Nav = (props) => {
         <Logo />
         <ul className={classes.lists}>
           <li>
-            <a href="index.html">Home</a>
+            <a href="home">Home</a>
           </li>
           <li>
-            <a href="index.html">Search</a>
+            <a href="home#search">Search</a>
           </li>
           <li>
-            <a href="index.html">Properties</a>
+            <a href="properties">Properties</a>
           </li>
           <li>
-            <a href="index.html">Stories</a>
+            <a href="#stories">Stories</a>
           </li>
           <li>
-            <a href="index.html" className={classes["special-nav-link"]}>
-              Sign-in / Sign-up
+            <a href="profile" className={classes["special-nav-link"]}>
+              Profile
             </a>
           </li>
         </ul>
       </nav>
-      <div className={classes.imgbox}>
+      {/* <div className={classes.imgbox}>
         <img src={img1} alt="" className={classes.img}></img>
-      </div>
+      </div> */}
     </Fragment>
   );
 };

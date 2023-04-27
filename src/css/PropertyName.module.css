@@ -1,0 +1,19 @@
+.property-name {
+  padding: 40px 100px;
+  font-family: "Poppins", sans-serif;
+}
+
+.property-name p {
+  color: rgba(227, 95, 0, 1);
+  font-weight: 400;
+  font-size: 22px;
+  padding-bottom: 5px;
+}
+
+.property-name-header {
+  width: 500px !important;
+}
+
+.property-name h2 {
+  font-size: 56px;
+}

@@ -12,48 +12,48 @@ const Footer = () => {
         <div className={classes.footer}>
           <div className={classes["footer-section-1"]}>
             <h3 className={classes["footer-content-header"]}>Navigation</h3>
-            <a className={classes["footer-content"]} href="index.html">
+            <a className={classes["footer-content"]} href="home">
               Home
             </a>
-            <a className={classes["footer-content"]} href="index.html">
+            <a className={classes["footer-content"]} href="home#search">
               Search
             </a>
-            <a className={classes["footer-content"]} href="index.html">
+            <a className={classes["footer-content"]} href="properties">
               Properties
             </a>
-            <a className={classes["footer-content"]} href="index.html">
+            <a className={classes["footer-content"]} href="#stories">
               Stories
             </a>
-            <a className={classes["footer-content"]} href="index.html">
+            <a className={classes["footer-content"]} href="profile">
               SignIn / SignUp
             </a>
           </div>
 
           <div className={classes["footer-section-2"]}>
             <h3 className={classes["footer-content-header"]}>Contact Us</h3>
-            <a href="index.html" className={classes["footer-content"]}>
+            <a href="\" className={classes["footer-content"]}>
               Phone: +234 (0) xxx-xxx-xxxx
             </a>
-            <a href="index.html" className={classes["footer-content"]}>
+            <a href="mailto:info@propview.com" className={classes["footer-content"]}>
               Email: ......
             </a>
-            <a href="index.html" className={classes["footer-content"]}>
+            <a href="\" className={classes["footer-content"]}>
               Address: 1234 Example St,
             </a>
-            <a href="index.html" className={classes["footer-content"]}>
-              City, State, Country
+            <a href="\" className={classes["footer-content"]}>
+              Lekki, Lagos, Nigeria
             </a>
           </div>
 
           <div className={classes["footer-section-3"]}>
             <h3 className={classes["footer-content-header"]}>Legal</h3>
-            <a href="index.html" className={classes["footer-content"]}>
+            <a href="\privact" className={classes["footer-content"]}>
               Terms of Use
             </a>
-            <a href="index.html" className={classes["footer-content"]}>
+            <a href="\privacy" className={classes["footer-content"]}>
               Privacy Policy
             </a>
-            <a href="index.html" className={classes["footer-content"]}>
+            <a href="\" className={classes["footer-content"]}>
               Disclaimer
             </a>
 
@@ -63,7 +63,7 @@ const Footer = () => {
               </h3>
               <div className={classes["social-media-icons"]}>
                 <a
-                  href="index.html"
+                  href="https://instagram.com/propview"
                   className={classes["social-media-icon-link"]}
                 >
                   <img
@@ -74,7 +74,7 @@ const Footer = () => {
                 </a>
 
                 <a
-                  href="index.html"
+                  href="https://linkedin.com/propview"
                   className={classes["social-media-icon-link"]}
                 >
                   <img
@@ -85,7 +85,7 @@ const Footer = () => {
                 </a>
 
                 <a
-                  href="index.html"
+                  href="https://web.facebook.com/propview"
                   className={classes["social-media-icon-link"]}
                 >
                   <img
@@ -96,7 +96,7 @@ const Footer = () => {
                 </a>
 
                 <a
-                  href="index.html"
+                  href="https://twitter.com/propview"
                   className={classes["social-media-icon-link"]}
                 >
                   <img

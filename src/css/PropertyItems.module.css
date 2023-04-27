@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+
+.grid-items {
+  font-family: "Poppins", sans-serif;
+  padding: 60px 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+  row-gap: 80px;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-item p {
+  font-size: 22px;
+  color: rgba(227, 95, 0, 1);
+}
+
+.grid-item h2 {
+  font-size: 35px;
+  font-weight: 700;
+}

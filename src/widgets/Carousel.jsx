@@ -11,7 +11,7 @@ import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 
 const Carousel = () => {
   return (
-<div>
+<div id="stories">
       <h2 className="carousel-page-head">WHAT OUR CLIENTS ARE SAYING</h2>
       <Swiper
         cssMode={true}
